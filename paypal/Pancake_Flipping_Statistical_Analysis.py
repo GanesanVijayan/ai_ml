@@ -3,7 +3,7 @@
 
 # # Pancake Flipping - Statistical Analysis and Inference
 
-# In[52]:
+# In[1]:
 
 
 #Import the necessary libraries
@@ -18,38 +18,38 @@ warnings.filterwarnings('ignore')
 from scipy.stats import ttest_ind
 
 
-# In[54]:
+# In[2]:
 
 
 #Read the data as a data frame
 df_org = pd.read_csv('data.csv')
 
 
-# In[55]:
+# In[3]:
 
 
 df_org.head()
 
 
-# In[56]:
+# In[4]:
 
 
 df_org.tail()
 
 
-# In[57]:
+# In[5]:
 
 
 df_org.shape
 
 
-# In[58]:
+# In[6]:
 
 
 df_org.nunique()
 
 
-# In[59]:
+# In[7]:
 
 
 df_org.attempts.unique()
@@ -58,7 +58,7 @@ df_org.attempts.unique()
 # Observation:
 # 1. Column 'attempts' seems to be having the same value(20 attempts) across all records. Hence removing this column. This column would have contributed significantly to arrive at the success(score/attempts) with 'coefficent of variation' if it had been having variants in it.
 
-# In[60]:
+# In[8]:
 
 
 df_org.info();
@@ -74,7 +74,7 @@ df_org.info();
 # column 'score' - numerical(discrete)
 # column 'attempts' - numerical(discrete)
 
-# In[61]:
+# In[9]:
 
 
 # Checking the presence of missing values
@@ -86,13 +86,13 @@ else:
     print("====> There are NaN values present in the original dataset. Null count is", total_nan)
 
 
-# In[62]:
+# In[10]:
 
 
 sns.heatmap(df_org.isnull(), cmap="YlGnBu");
 
 
-# In[63]:
+# In[11]:
 
 
 # Duplicate check
@@ -103,7 +103,7 @@ print("Duplicate rows present in the dataset: ", df_org[df_org.duplicated()].sha
 # 1. There are no null values in the given dataset
 # 2. There are no duplicate records in the given dataset
 
-# In[64]:
+# In[12]:
 
 
 # EDA - 5 point summary of numerical attributes
@@ -111,7 +111,7 @@ df_summary = df_org.describe().transpose()
 df_summary
 
 
-# In[65]:
+# In[13]:
 
 
 #range = max-min
@@ -121,7 +121,7 @@ df_summary_fin = pd.concat([df_summary, pd.DataFrame(df_summary['max']-df_summar
 df_summary_fin
 
 
-# In[66]:
+# In[14]:
 
 
 # where mean is approx. equal to 2nd quartile(50%) median - which infers the data distribution is close to normal distr.
@@ -129,7 +129,7 @@ df_5n_summary = df_summary.rename(columns={'25%':'25%(Q1)', '50%':'50%(Median)',
 print("*****Five point summary *****","\n\n", df_5n_summary.iloc[:,3:]) 
 
 
-# In[67]:
+# In[15]:
 
 
 #EDA - Distribution of ‘score’
@@ -150,7 +150,7 @@ plt.legend();
 # 1. 'Skewness' of column 'score' is '-0.005' which is very close to zero and falling in the range of -1 and 1.
 # 2. Both the sides are approximately symmetric from median and mean points. Hence, data seems to be normally distributed.
 
-# In[68]:
+# In[16]:
 
 
 #EDA - Checking the presence of outliers in 'score'
@@ -170,21 +170,21 @@ def outliers_cnt(col_name):
     return lower_outliers, upper_outliers, total_outliers
 
 
-# In[69]:
+# In[17]:
 
 
 outliers_dict = {"lower_outliers":outliers_cnt('score')[0], "upper_outliers":outliers_cnt('score')[1],"total_outliers":outliers_cnt('score')[2]}
 print("Outlier details for 'score' : ", outliers_dict)
 
 
-# In[70]:
+# In[18]:
 
 
 # Outlier details for 'score' of 'Arielle'
 sns.boxplot(df_org[df_org['name'].isin(['Arielle'])].score);
 
 
-# In[71]:
+# In[19]:
 
 
 # Outlier details for 'score' of 'Boris'
@@ -194,7 +194,7 @@ sns.boxplot(df_org[df_org['name'].isin(['Boris'])].score);
 # Observations:
 # 1. From the above boxplotting, I can observe that there are no outliers in the column 'score' for both 'Arielle' and 'Boris'
 
-# In[72]:
+# In[20]:
 
 
 # match day wise individual performance trend
@@ -204,7 +204,7 @@ df_temp = df_org.pivot("match_day", "name", "score")
 sns.lineplot(data=df_temp, markers=True, dashes=True);
 
 
-# In[73]:
+# In[21]:
 
 
 #Check record count of 'Arielle' and 'Boris'
@@ -213,7 +213,7 @@ sns.set(rc={'figure.figsize':(6,4)})
 sns.countplot(df_org.name);
 
 
-# In[74]:
+# In[22]:
 
 
 #Check record count of 'Right Hand' and 'Left Hand'
@@ -224,21 +224,21 @@ sns.countplot(df_org.hand);
 # 1. From the above count plot, it seems there are about 50 records in both the groups 'Arielle' and 'Boris'. Hence, the data is equally distributed across two classes ('Arielle' and 'Boris).
 # 2. Also, groups 'Arielle' and 'Boris' are independent as events are NOT influenced by others.
 
-# In[75]:
+# In[23]:
 
 
 # Scores based on 'name' column
 sns.catplot(x='name',col='score',data=df_org, kind='count',height=5);
 
 
-# In[76]:
+# In[24]:
 
 
 # Scores based on 'name' and 'hand' columns
 sns.catplot(x='name',hue='hand',col='score',data=df_org, kind='count',height=5);
 
 
-# In[77]:
+# In[25]:
 
 
 # Individual mean scores based on 'name'
@@ -247,14 +247,14 @@ print("Average score of Arielle: ", df_org[df_org['name'].isin(['Arielle'])]['sc
 print("Average score of Boris: ", df_org[df_org['name'].isin(['Boris'])]['score'].mean())
 
 
-# In[78]:
+# In[26]:
 
 
 # Individual mean scores based on 'hand' for 'Arielle'
 sns.catplot(x='score', col='hand',data=df_org[df_org['name'].isin(['Arielle'])], kind='bar',height=5);
 
 
-# In[79]:
+# In[27]:
 
 
 # Individual mean scores based on 'hand' for 'Boris'
@@ -268,7 +268,7 @@ sns.catplot(x='score', col='hand',data=df_org[df_org['name'].isin(['Boris'])], k
 # 4. The average score of Arielle is very slightly better than 'Boris'.
 # 5. Both 'Arielle' and 'Boris' were performing well with 'Right' hand over 'Left' hand
 
-# In[80]:
+# In[28]:
 
 
 #EDA - Pair plot that includes all the columns of the data frame - Multivariate analysis
@@ -283,7 +283,7 @@ sns.pairplot(df_org, height=3);
 
 # ## Performing Hypothesis Test
 
-# In[81]:
+# In[30]:
 
 
 # Is Arielle or Boris the better pancake flipper? Justify your decision. Do both sides have a case here?
@@ -313,10 +313,10 @@ confidence_level = (1-alpha)*100
 t_stats, p_val = ttest_ind(df_arielle, df_boris, equal_var=var_flag) 
 print("t-test value: '{0}' and p-value: '{1}'".format(t_stats, p_val))
 
-if p_val<alpha:
-    print(f"Arielle's pancake flipping performance is greater than or equal to Boris at {confidence_level}% confidence level. Ha is true")
+if p_val>alpha:
+    print(f"Arielle's pancake flipping performance is greater than or equal to Boris at {confidence_level}% confidence level. H0 is true")
 else:
-    print(f"Arielle's pancake flipping performance is lesser than Boris at {confidence_level}% confidence level. Ho is true")
+    print(f"Arielle's pancake flipping performance is lesser than Boris at {confidence_level}% confidence level. Ha is true")
 
 
 # ## Conclusion:
