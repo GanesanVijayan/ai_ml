@@ -1,0 +1,88 @@
+Business Research Analyst Interview:
+
+Interview Questions
+1. Explain Entropy
+2. explain a project and how you tackled the problems
+3. Medium Level Sql query and ML based basic questions.
+4. Leadership Principles are most important.
+5. Sql Query
+6. Python Based Problem Solving
+7. Machine learning and Behavioural questions.
+8. Tell me about a project where went above and beyond to contribute to the project.
+9. Name one instance where you had to work on a solution without any data
+
+
+Why Amazon?
+43 Answers
+Tell me about a time when you had to leave a task unfinished.
+6 Answers
+Tell me about a time when you gave a simple solution to a complex problem.
+3 Answers
+Tell me about a time when you invented something.
+Answer Question
+Tell me about a time when you had to work with incomplete data or information.
+Answer Question
+Tell me about a time when you influenced a change by only asking questions.
+Answer Question
+Tell me about a time when you solved a problem through just superior knowledge or observation.
+1 Answer
+Tell me about your proudest professional achievement.
+Answer Question
+Tell me about a time when you took a calculated risk.
+Answer Question
+Tell me about a time when you had to work with limited time or resources.
+2 Answers
+Give me two examples of when you did more than what was required in any job experience.
+Answer Question
+Tell me about an unpopular decision of yours.
+2 Answers
+
+
+Interview Questions
+Tell me about a time when you took on something significant outside your area of responsibility and why was that important?
+2 Answers
+Describe a time you didn’t think you were going to meet a commitment you promised? How did you identify the risk and communicate it to the stakeholder/team/customer?
+1 Answer
+Give me an example of a time you were able to deliver an important project under a tight deadline? Did you have to make any sacrifices to meet this deadline?
+1 Answer
+Tell me about a time where you did not effectively manage your project and something did not get completed on time?
+1 Answer
+Tell me about a time when you not only met a goal but considerably exceeded expectations? How were you able to do this?
+1 Answer
+Why AWS? What brings you to be talking with us?
+Answer Question
+Can you describe a difficult interaction you’ve had with a customer? How did you deal with it? Thinking back, what would you do differently?
+1 Answer
+Can you provide an example of when you when you asked a customer for feedback? How did you use that feedback to drive innovation or improvement?
+1 Answer
+Sometimes customers make unreasonable requests, can you tell me about a time you pushed back or said no to a customer? What did you do in response to that request?
+1 Answer
+Can you give me an example of a calculated risk you have taken where speed was critical? What was the situation and how did you handle it?
+1 Answer
+Can you tell me about a time when you made an important business decision without consulting your manager? What was the situation and how did it turn out?
+1 Answer
+Do you feel you have a good understanding of what this role is all about?
+Answer Question
+What is your technical background?
+Answer Question
+Describe a software architecture you have helped design.
+Answer Question
+Can you think of a time you made a bad professional decision? What was the impact of the decision? What did you learn?
+1 Answer
+Can you think of a time when you had to make a decision but you didn’t have enough data to be sure you were making the right decision? What did you do and how did it work out?
+1 Answer
+Pretend that I am a CIO of a company, how would you describe the value proposition of AWS?
+1 Answer
+As you look back on your career so far, what would you say you’re most proud of?
+Answer Question
+Building trust with teams can be difficult to achieve sometimes. Can you give me an example of how you effectively built trusting working relationships with others?
+1 Answer
+What’s the coolest thing that you’ve learned on your own that you’ve then been able to apply in your job and to further perform your job?
+1 Answer
+Can you describe a time you needed the cooperation of a peer that was resistant? What was the situation and how did you handle that?
+
+
+
+
+
+1 Answer

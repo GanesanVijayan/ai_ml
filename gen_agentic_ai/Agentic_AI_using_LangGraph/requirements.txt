@@ -1,0 +1,89 @@
+# ============================================
+# 🧩 LangChain Core & Extensions
+# ============================================
+langchain                   # Core LangChain library
+langchain-core              # Underlying interfaces and utilities
+langchain-community         # Community-driven components
+langchain-experimental      # Experimental features
+langgraph                   # LangGraph: extension for agentic workflows
+langsmith                   # LangSmith: tracking/debugging tool for LangChain apps
+langchain-mcp-adapters      # MCP adapter to connect components with LangChain
+langgraph-checkpoint-sqlite #
+
+# ============================================
+# 🤖 LLM Providers & Integrations
+# ============================================
+
+# --- OpenAI ---
+openai                      # Official OpenAI SDK
+langchain-openai            # LangChain's OpenAI integration
+
+# --- Anthropic ---
+anthropic                   # Official Anthropic SDK
+langchain-anthropic         # LangChain's Anthropic integration
+
+# --- Google Gemini ---
+google-generativeai         # Gemini (PaLM) SDK from Google
+langchain-google-genai      # LangChain's Gemini integration
+
+# --- GROQ ---
+langchain-groq              # LangChain's GROQ integration
+
+# --- Hugging Face ---
+transformers                # Hugging Face Transformers - model loading and inference
+huggingface-hub             # Interface to Hugging Face model/data hub
+torch                       # Backend for Transformers (PyTorch)
+langchain-huggingface       # LangChain's Hugging Face integration
+
+# Optional: Recommended for embeddings and local inference
+sentence-transformers       # Pretrained embedding models
+accelerate                  # Optimized model loading for HF models
+# bitsandbytes                # For efficient inference (optional for 8bit models)
+
+# --- Ollama (Local LLMs) ---
+langchain-ollama            # LangChain's Ollama integration for local models
+
+# ============================================
+# 🧠 Machine Learning & Utilities
+# ============================================
+numpy                       # Numerical operations and array manipulation
+scikit-learn                # ML models, vectorizers, similarity metrics
+numexpr                     # Fast numerical expression evaluation engine
+faiss-cpu                   # Fast vector search (alternative to Chroma)
+
+# ============================================
+# ⚙️ Environment & Configuration
+# ============================================
+python-dotenv               # Load environment variables from `.env` files
+
+# ============================================
+# 🔍 Search & Retrieval Tools
+# ============================================
+wikipedia                   # Wikipedia API wrapper
+duckduckgo-search           # DuckDuckGo search integration
+langchain_tavily            # LangChain's integration for Tavily web search
+
+# ============================================
+# 📄 Document Parsing / RAG Tools
+# ============================================
+pypdf                       # PDF parsing and text extraction
+unstructured                # Processing unstructured document content
+markdown                    # Markdown format support
+rank_bm25                   # BM25 ranking algorithm for search/retrieval
+langchain-chroma            # Integration with Chroma vector database
+ragas                       # RAG scoring and evaluation tools
+
+# ============================================
+# 📊 Notebook & Visualization Support
+# ============================================
+ipykernel                   # Jupyter kernel interface (for notebooks)
+ipywidgets                  # Jupyter UI widgets
+tqdm                        # Progress bar support
+notebook                    # Jupyter Notebook interface
+multidict                   # Multidict for handling multi-value dictionaries
+
+
+# ============================================
+# 🖥️ App Interface / UI Frameworks
+# ============================================
+streamlit                   # UI framework for building interactive web apps

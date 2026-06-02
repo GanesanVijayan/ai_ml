@@ -1,0 +1,92 @@
+PMS Data Scientist Sr. Expert
+You applied for this job on August 12, 2022
+View Application
+PMS Data Scientist Sr. Expert
+You applied for this job on August 12, 2022
+View Application
+locations
+Chennai (ex Madras)
+time type
+Full time
+posted on
+Posted 26 Days Ago
+
+job requisition id
+467746
+
+Job Title
+PMS Data Scientist Sr. Expert
+
+Job Description
+#LI-PHILIN
+
+About PHILIPS:
+
+Philips is a global leader in health technology, committed to improving billions of lives worldwide and striving to make the world healthier and more sustainable through innovation. Driven by the vision of a better tomorrow.
+
+But it’s not just what we do, it’s who we are. We are 80,000, wonderfully unique individuals, with two things in common. An unwavering sense of purpose and a relentless determination to deliver on our customers’ needs. It’s what inspires us to create meaningful solutions – the kind that make a real difference – when it matters most.
+
+The world and our customers’ needs are changing faster than ever before and while we are proud of what we do already, we know we can do more. That’s why we need you, to help us tackle increasingly complex challenges posed by ever evolving health and well-being needs.
+
+About Philips Global Business Services (GBS)
+
+Philips Global Business Services delivers excellence in the execution of business services, enabling an agile repeatable framework to leverage market opportunities that contribute to extending our leadership as a Health Technology company. Our people are a key part of the transformation program in Philips and at GBS, you become part of a global team of professionals that form the backbone of this journey.
+
+Job Description:
+
+Responsibilities
+
+Implements solutions to problems using data analysis, data mining, optimization tools and machine learning techniques and statistics
+Build data-science and technology based algorithmic solutions to address business needs
+Design large scale models using Logistic Regression, Linear Models Family, Conjoint Analysis, Spatial models, Time-series models, Text mining
+Drive the collection of new data and the refinement of existing data sources
+Analyze and interpret the results of analytics experiments
+Applies a global approach to analytical solutions-both within a business area and across the enterprise
+Ability to use data for Exploratory, descriptive, Inferential, Prescriptive, and Advanced Analytics 
+Ability to share dashboards, reports, and Analytical insights from data
+Experience of having done visualization on large datasets – Preferred – added advantage
+Technical Knowledge and Skills required
+
+Experience solving analytical problems using quantitative approaches
+Passion for empirical research and for answering hard questions with data
+Ability to manipulate and analyze complex, high-volume, high-dimensionality data from varying sources
+Ability to apply a flexible analytic approach that allows for results at varying levels of precision
+Ability to communicate complex quantitative analysis in a clear, precise, and actionable manner
+Expert knowledge of an analysis tool such as R, Python, Matlab, or SAS
+Experience working with large data sets, experience working with distributed computing tools a plus (Map/Reduce, Hadoop, Hive, etc.)
+Familiarity with relational databases and SQL
+Soft Skills Required
+
+Good  communication and presentation skills
+Highly driven, energetic, flexible, resourceful & ability to multitask
+Adherence to timelines, without sacrificing quality of output
+Hands on and detail oriented, with a strong ability to co-ordinate across different Geographies and with different stakeholders at Exec and Director levels
+Work Experience
+
+Minimum 8-12 years of experience in Data science/Analytics/Statistician roles 
+Can be from e-Commerce companies like Amazon, Flipkart etc.
+Academics
+
+Master’s degree in a quantitative discipline, e.g., Math, Statistics, Physics, Operations Research, Economics, Econometrics
+MBA /BTech-BE from IIT/NITs or Tier 1 engineering schools only, , MS Analytics from Tier 1 schools 
+Strong exposure to Statistics – Predictive Analytics – Mandatory
+In return, we offer you
+
+A meaningful career, with new challenges in our dynamic organization, working in an encouraging multinational and multicultural environment. We are happy to provide you with this opportunity to work with new technologies. You will be surrounded by passionate and committed, colleagues who share your ambition to create outstanding customer experiences. Your work will be ambitious and full of opportunities for growth. Variety and challenge will be part of your daily routines. 
+
+How we work at Philips
+Our newly-adopted hybrid work concept fuses flexibility with collaboration to deliver great outcomes for our people and our customers. We are embracing an approach wherein we spend more time together than apart – which for full-time employees translates to an average of at least 3 days working from the office and up to 2 days from home – for our hybrid roles.
+Hybrid work flexibility means people can meet the changing demands of work and home in the most balanced, productive, and healthy way. Hybrid work flexibility means people can meet the changing demands of work and home in the most balanced, productive, and healthy way.
+
+Our hybrid working model is defined in 3 ways:
+We believe in the importance of impactful collaboration: There's a certain energy when everyone’s in the same room that can heighten idea generation and creative friction needed for problem-solving.
+We embrace flexibility: Choosing where, when and how to work can vary according to task and team schedules. Flexibility isn’t office or online, it means choosing the space that works best for you, your teams and our customers on a case-by-case basis.
+We want to be at our best: The way we work and our workspaces are designed to support our well-being, offer career advancement opportunities, and enable us to be at our best.
+
+Why should you join Philips?
+
+Working at Philips is more than a job. It’s a calling to create a healthier society through meaningful work, focused on innovative, customer-first health technology solutions. Help us improve the health and well-being of billions of people, every year. Ultimately creating a career that no one could have planned for. Even you.
+
+Notice for Philips Job Seekers 
+
+It has come to our attention that a group of unknown fraudsters  are reaching out to people on LinkedIn and other websites,  offering fake employment opportunities and charging a fee in the name of Philips. We have noticed that these emails are using fake domain addresses as opposed to Philips domain (Philips.com). Please note that Philips has a merit-based employee selection practice mentioned on our official website (www.philips.co.in). We do not charge / accept any amount or security deposit from job seekers during the selection process or while inviting candidates for an interview. To find out more, please read : https://www.philips.co.in/a-w/about-philips/public-notice.html

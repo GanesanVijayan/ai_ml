@@ -1,0 +1,100 @@
+Overall interview lasted about 2 hours to cover below questions,
+
+=> Interviewer introduction(experience, RBS domain - i think Retail Business...)
+=> My Introduction(Education, Job, Certificates, Patents, etc.)
+
+Questioning starts here,
+1. Explain classfication problem you worked on -> how did you handle data/feature engineering, dimentionality reduction, EDA, evaluation metrics, etc.
+2. Explain PCA functionality (eigen values, and vectors) and why? 
+3. How do you find if a matrix is orthoganally adjusted in the variable space? matrix(dot)transpose of matrix = identity matrix
+4. Other classification models experimented
+5. NLP usecase worked on -> text processing, sentiment analysis, distance metrics, word embedding
+6. Explain BERT architecture and other transformers you used
+7. How did you handle signifying words/sentences. I explained about Custom word embedding to maximize the weightage for the tokens in the mathematical space
+8. Python live-code: below two problems in 30 mins max.
+
+
+(1) Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target nums = [2,7,11,15] Target = 26
+
+Answer i wrote up:
+
+nums = [2,7,11,15]
+
+target = 26
+
+getIndex = []
+intermIndex = []
+
+def getUsedElements(nums = nums, target = target):
+    for elementA, indexA A in nums.enumerate():
+        for elementB, indexB in range(1, len(nums)):
+            elementA = elementA+elementB
+            if intermAdd == target:
+                getIndex.append(elementA, )
+                intermIndex.append(elementA)
+                intermIndex.append(elementB)
+                print("Elements used to get the target value: ", intermIndex)
+            else:
+                continue
+    return intermIndex
+    
+
+(2) Given a string s, return the longest palindromic substring in s. Input: s = "pdkdmadam" Output: "madam"
+
+
+Answer i wrote up:
+
+s = "pdkdmadam"
+
+charCombo = []
+
+
+def findMaxPalindrome(input = s):
+    inputLength = len(s)
+    
+    stepIncr = list(range(1, length))  #[1,2,3,4]
+       
+    for intr in stepIncr:
+        for i in range(0,inputLength):
+            charCombo.append([i:intr])
+    
+    reverseCharCombo = list(map(lambda charCombo:reverse(charCombo)))
+ 
+    #check if original combo matches w/ reversed combo and pick only matching ones
+    if len(charCombo) == len(reverseCharCombo):
+       finalCharCombo = []
+       for i,j in zip(charCombo, reverseCharCombo):
+           if i == j:
+              finalCharCombo.append(j) #i can also be appended.
+
+       for element in reverseCharCombo:
+	   finalCharComboLen = {item:len(item) for item in finalCharCombo}
+
+    # get combo that have highest length
+    for key, val in finalCharCombolen.items():    ------>> this needs proper finishing. due to time constraints, it just explained the logic
+        if max(val):  
+	   return {key:val}
+
+    
+combo with len output would be somthing like,    
+    {pd: 2, pk:2, ......, mad: 3, ..., madam:5}
+
+final output is,
+{madam:5}
+
+
+
+Amazon interview 2:
+
+odd ratio in logistic regression
+intersection in linear regeression
+wide noise in timeseries analysis
+
+
+python:
+1. find first reoccuring char in a given string
+2. return bi-gram of given sentence
+3. return stemming of given sentence 
+
+    
+        
